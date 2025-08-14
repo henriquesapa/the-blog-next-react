@@ -1,22 +1,19 @@
-'use client';
-
 import clsx from 'clsx';
 
 export function Header() {
   return (
-    <h1
-      className={clsx(
-        'text-xl',
-        'font-bold',
-        'text-blue-500',
-        'hover:text-blue-50',
-        'hover:bg-blue-200',
-        'transition',
-        'duration-1000',
-      )}
-      onClick={() => alert(123)}
-    >
-      Texto no meu h1
-    </h1>
+    <header>
+      <h1
+        className={clsx(
+          'text-4xl/normal font-extrabold py-8',
+          'sm:text-5xl/normal sm: py-10',
+          'md:text-6xl/normal md: py-11',
+          'lg:text-6xl/normal lg: py-12',
+          'xl:text-6xl/normal lg: py-13',
+        )}
+      >
+        <a href='#'>The blog</a>
+      </h1>
+    </header>
   );
 }
