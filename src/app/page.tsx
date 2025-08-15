@@ -1,5 +1,6 @@
 import { Container } from '@/components/Container';
 import { Header } from '@/components/Header';
+import { PostHeading } from '@/components/PostHeading';
 import { PostsList } from '@/components/PostsList';
 import { SpinLoader } from '@/components/SpinLoader';
 import Image from 'next/image';
@@ -25,9 +26,9 @@ export default async function HomePage() {
           <time className='text-slate-600 text-sm/tight' dateTime='2025-04-20'>
             20/04/2025 10:00
           </time>
-          <h1 className='text-2xl/tight font-extrabold sm:text-4xl'>
-            <Link href='#'>Lorem ipsum dolor sit amet, consectetur</Link>
-          </h1>
+          <PostHeading as='h1' url='#'>
+            Et adipisci optio obcaecati corporis necessitatibus ratione quae
+          </PostHeading>
           <p>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores
             illo enim porro numquam cum dicta, veritatis quas minus rerum magnam
