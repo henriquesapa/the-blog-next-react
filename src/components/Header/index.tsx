@@ -12,7 +12,7 @@ export function Header() {
           'xl:text-6xl/normal lg: py-13',
         )}
       >
-        <a href='#'>The blog</a>
+        <a href='/'>The blog</a>
       </h1>
     </header>
   );
