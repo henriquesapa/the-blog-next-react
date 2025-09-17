@@ -1,4 +1,3 @@
-import { postRepository } from '@/repositories/post';
 import { PostCoverImage } from '../PostCoverImage';
 import { PostSummary } from '../PostSummary';
 import { findAllPublicPostsCached } from '@/lib/post/queries';
