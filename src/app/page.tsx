@@ -1,5 +1,7 @@
+import { ClientComponent } from '@/components/ClientComponent';
 import { PostFeatured } from '@/components/PostFeatured';
 import { PostsList } from '@/components/PostsList';
+import { ServerComponent } from '@/components/ServerComponent';
 import { SpinLoader } from '@/components/SpinLoader';
 import { Suspense } from 'react';
 
